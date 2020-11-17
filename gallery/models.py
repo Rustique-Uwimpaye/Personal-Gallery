@@ -23,7 +23,7 @@ class Location(models.Model):
 
     @classmethod
     def get_location_id(cls, id):
-        locate = Location.objects.get(pk = id)
+        locate = cls.objects.get(pk = id)
         return locate
 
     def __str__(self):
