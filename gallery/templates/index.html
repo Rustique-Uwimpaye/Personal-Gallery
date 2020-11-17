@@ -6,27 +6,16 @@
 {{block.super}}
 
 
-<!-- Landing Page -->
-<div class="banner">
-    <div class="cover">
-        <div class="container image">
-            <h2 id="category">Heal the world with Photos</h2>
-            <form class="form" role="search" action="{% url 'search_image' %}">
+<form class="form" role="search" action="{% url 'search_image' %}">
 
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="&#xf3ee; Search by category" name="image_category">
-                  <br>
-                 </div>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="&#xf3ee; Search by category" name="image_category">
+      <br>
+     </div>
 
-                 <small>Trending searches: Fast Food, Culture</small>
+     <small>Trending searches: Fast Food, Culture</small>
 
-              </form>
-            <p>Not Just Nearly Images, But Really Images.</p>
-            <a href="#gallery">VIEW GALLERY</a>
-        </div>
-    </div>
-</div>
-
+</form>
 
 <div class="container wrap">
     <!-- Looping through images -->
