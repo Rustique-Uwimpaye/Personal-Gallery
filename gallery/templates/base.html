@@ -32,7 +32,7 @@
 
     {% block scripts %}
     <script>
-      function myFunction() {
+      function copy() {
         var copyText = document.getElementById("link");
         copyText.select();
         document.execCommand("Copy");
@@ -42,7 +42,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script>
+    <!-- <script>
     function copy(ids) {
         var textCopied = document.getElementById(ids);
         text = textCopied.src;
@@ -55,7 +55,7 @@
         alert("Copied: " + textCopied.src);
     }
 
-    </script>
+    </script> -->
       {% bootstrap_javascript %}
       <script src="{% static 'js/scripts.js' %}"></script>
 

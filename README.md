@@ -3,7 +3,7 @@
 
 ## Screenshot
 
-![Screenshot from 2020-11-16 10-27-52](https://user-images.githubusercontent.com/68597043/99223969-844cdd00-27f6-11eb-8afd-43f276e287c0.png)
+![Screenshot from 2020-11-18 17-47-05](https://user-images.githubusercontent.com/68597043/99545209-34bd0b80-29c6-11eb-84a6-f4336579a871.png)
 
 ## Description
 
